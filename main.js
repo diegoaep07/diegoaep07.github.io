@@ -31,6 +31,10 @@ changeMode.addEventListener(
   }
 )
 
+let last_publication_on_degcode_container = document.getElementById('degCodeLast')
+/*let getTheLastPost = () => {
+
+}*/
 
 let motivQuotDiv = document.getElementById('motivationalQuote')
 let quote = randomQuote(jsonQuotes)
