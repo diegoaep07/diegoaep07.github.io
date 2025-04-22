@@ -24,6 +24,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: OpenSans;
+  font-size: 1.3rem;
   transition: 1.5s;
   animation: body;
   animation-duration: 2s;
@@ -91,6 +92,10 @@ body{
   transition: all 0.2s;
 }
 
+.my-links > div {
+  text-align: center;
+  font-weight: bolder;
+}
 .my-links > div:hover {
   width: 93%;
   box-shadow: 0px 0px 10px #888888;
@@ -119,6 +124,10 @@ body{
 .my-links > .instagram{
    background: rgb(131, 58, 180);
    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 48, 48, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.my-links > .bsky {
+  background-color: #4F7ADA;
 }
 
 mark{

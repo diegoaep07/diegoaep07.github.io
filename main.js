@@ -8,7 +8,7 @@ let events = (id, url) => {
 }
 events('degcodechannel', 'https://t.me/degcode')
 events('twitterlink', 'https://www.x.com/astrodev0703')
-events('devto', 'https://dev.to/astrodev07')
+events('bluesky', 'https://bsky.app/profile/diegoaep07.bsky.social')
 events('mygithub', 'https://github.com/astrodev07')
 events('ytchannel', 'https://youtube.com/@astrodev07')
 events('emailink', 'mailto:diegoaep07@proton.me')
