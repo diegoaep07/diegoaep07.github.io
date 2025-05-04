@@ -152,7 +152,7 @@ mark{
   bottom: 2rem;
   right: 1rem;
   padding: 0.5rem;
-  border-radius: 0.2rem;
+  border-radius: 50%;
   transition: all 0.2s;
 }
 
