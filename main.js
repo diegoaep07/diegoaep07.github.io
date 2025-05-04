@@ -22,11 +22,11 @@ changeMode.addEventListener(
   () => {
     if (document.body.className == 'dark-mode') {
       document.body.className = 'white-mode'
-      changeMode.innerHTML = 'Dark Mode'
+      changeMode.innerHTML = '🌕'
     } 
     else {
       document.body.className = 'dark-mode'
-      changeMode.innerHTML = 'White Mode'
+      changeMode.innerHTML = '☀️'
     }
   }
 )
