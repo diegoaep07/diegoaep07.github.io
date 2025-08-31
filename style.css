@@ -105,17 +105,15 @@ body{
   background-color: #31ABE0;
 }
 
-.my-links > .twitterx{
-  background-color: #000000;
-}
-
 .my-links > .github{
   background-color: #1B1F23;
 }
 
-.my-links > .youtube{
+
+/* .my-links > .youtube{
   background-color: #ff0000;
-}
+} */
+
 
 .my-links > .email{
   background-color: #DCB451;
