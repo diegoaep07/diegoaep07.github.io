@@ -37,4 +37,4 @@ changeMode.addEventListener(
 // Displaying a Motivatioal Quote
 let motivQuotDiv = document.getElementById('motivationalQuote')
 let quote = randomQuote(jsonQuotes)
-motivQuotDiv.innerHTML = `<hr/><h3>A nice Quote:</h3>"<b>${quote.quote}</b>"<br/>${quote.author}<br/><br/><hr/>`
+motivQuotDiv.innerHTML = `<hr/><h3>Una buena Frase:</h3>"<b>${quote.quote}</b>"<br/>${quote.author}<br/><br/><hr/>`
