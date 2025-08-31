@@ -31,13 +31,13 @@ body{
 }
 
 .dark-mode{
-  background-color: #101010;
+  background-color: #121212;
   color: #f5f5f5;
   font-weight: 370;
 }
 
 .white-mode{
-  background-color: #f0f0f0;
+  background-color: #f5e9e9;
   color: #191919;
   font-weight: 370;
 }
@@ -102,11 +102,11 @@ body{
 }
 
 .my-links > .telegram{
-  background-color: #31ABE0;
+  background-color: #358eb4;
 }
 
 .my-links > .github{
-  background-color: #1B1F23;
+  background-color: #1b2128;
 }
 
 
@@ -116,16 +116,16 @@ body{
 
 
 .my-links > .email{
-  background-color: #DCB451;
+  background-color: #db9754;
 }
 
 .my-links > .instagram{
    background: rgb(131, 58, 180);
-   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 48, 48, 1) 50%, rgba(252, 176, 69, 1) 100%);
+   background: linear-gradient(90deg, rgb(138, 61, 189) 0%, rgb(216, 63, 63) 50%, rgb(238, 165, 64) 100%);
 }
 
 .my-links > .bsky {
-  background-color: #4F7ADA;
+  background-color: #3f68c1;
 }
 
 mark{
