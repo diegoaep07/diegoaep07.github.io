@@ -11,7 +11,7 @@ let open_link = (id, url) => {
 }
 
 // Using previous function to open my personal links
-open_link('personalchannel', 'https://t.me/diegoaep')
+open_link('personalchannel', 'https://t.me/diegoaep07')
 open_link('bluesky', 'https://bsky.app/profile/diegoaep07.bsky.social')
 open_link('mygithub', 'https://github.com/astrodev07')
 // open_link('ytchannel', 'https://youtube.com/@diegoaep07')
