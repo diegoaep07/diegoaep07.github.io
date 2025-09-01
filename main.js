@@ -34,6 +34,20 @@ changeMode.addEventListener(
   }
 )
 
+let autoDarkOrLightMode = () => {
+  let dayTime = new Date().getHours()
+  if(dayTime < 20){
+    document.body.className = 'white-mode'
+    changeMode.innerHTML = '🌙'
+  }
+  else{
+    document.body.className = 'dark-mode'
+    changeMode.innerHTML = '☀️'
+  }
+}
+
+autoDarkOrLightMode()
+
 // Displaying a Motivatioal Quote
 let motivQuotDiv = document.getElementById('motivationalQuote')
 let quote = randomQuote(jsonQuotes)
