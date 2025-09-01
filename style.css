@@ -95,14 +95,11 @@ body{
   color: #f5f5f5;
   cursor: pointer;
   transition: all 0.2s;
-}
-
-.my-links > div {
   text-align: center;
 }
 
 .my-links > div:hover {
-  width: 93%;
+  scale: 1.08;
   box-shadow: 0px 0px 10px #888888;
 }
 
@@ -165,7 +162,7 @@ mark{
 
 .float-btn-right:hover{
   cursor: pointer;
-  padding: 0.7rem;
+  scale: 1.2;
 }
 
 .float-btn-left{
