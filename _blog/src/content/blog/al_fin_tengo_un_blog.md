@@ -19,3 +19,7 @@ Quería mantener mi [sitio principal](https://diegoaep07.github.io), así que el
 Tener un blog, es bastante raro hoy en día, ya que todos prefieren consumir contenido más estimulante en aplicaciones como TikTok o Instagram. Pero, es algo divertido. Te recomiendo que lo hagas, en serio, es agradable. Pero si yo no te motivo, seguro Alex Molas lo hace, el fue quién me motivó a mí, lee su artículo, no te arrepentirás: https://www.alexmolas.com/2023/07/15/nobody-cares-about-your-blog.html
 
 Por último... Sígueme en mis redes sociales XD, no te cuesta nada... Nos vemos en mi próximo artículo, porque este no será el último :)
+
+```js
+console.log("Gracias, Astro :D")
+```
