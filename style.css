@@ -111,6 +111,9 @@ body{
   background-color: #1b2128;
 }
 
+.my-links > .blog{
+  background-color: #697787;
+}
 
 /* .my-links > .youtube{
   background-color: #ff0000;
