@@ -5,8 +5,6 @@ pubDate: 'Sep 09 2024'
 heroImage: '../../assets/mip_blog_preview.jpg'
 ---
 
-![[mip_blog_preview.jpg]]
-
 **Hagamos una pequeña apuesta, si tienes WhatsApp instalado en tu dispositivo móvil, deberás seguirme en [Bluesky](https://bsky.app/diegoaep07.github.io)**. Estoy bastante seguro de que perdiste, ¿cierto?. Pues, normal, yo también perdí, y probablemente el 99% de la población mundial perdería.
 ### ¿Por qué?
 *WhatsApp es un estándar de comunicación en la mayor parte del mundo, excepto por los países donde está prohibido su uso(China, Rusia y otros).* Fue de las primeras aplicaciones de mensajería instantánea, y la primera en funcionar en todo tipo de dispositivo móvil. Además de que dicha aplicación, luego fue adquirida por el gigante tecnológico **Meta**, quién lo ha guiado hasta el punto tan alto donde se encuentra hoy en día.
