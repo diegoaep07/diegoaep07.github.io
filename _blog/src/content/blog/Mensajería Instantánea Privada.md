@@ -5,7 +5,7 @@ pubDate: 'Sep 09 2024'
 heroImage: '../../assets/mip_blog_preview.jpg'
 ---
 
-![[../../assets/mip_blog_preview.jpg]]
+![[mip_blog_preview.jpg]]
 
 **Hagamos una pequeña apuesta, si tienes WhatsApp instalado en tu dispositivo móvil, deberás seguirme en [Bluesky](https://bsky.app/diegoaep07.github.io)**. Estoy bastante seguro de que perdiste, ¿cierto?. Pues, normal, yo también perdí, y probablemente el 99% de la población mundial perdería.
 ### ¿Por qué?
