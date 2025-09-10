@@ -5,10 +5,18 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import ReactionsWidget from '../components/ReactionsWidget.vue'
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+
+import slugify from 'slugify'
+
+const slug = slugify(title, {
+  locale: 'es'
+})
+
 ---
 
 <html lang="en">
@@ -52,6 +60,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.text-center {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
 		</style>
 	</head>
 
@@ -80,7 +93,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 				</div>
 			</article>
-		</main>
+    </main>
+		<div class="text-center">
+      <ReactionsWidget client:visible
+        slug={slug}
+        theme="light"
+      	size="md"
+        showLabels={false}
+        showTotal={false}
+      />
+		</div>
 		<Footer />
-	</body>
+  </body>
 </html>
